@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API = axios.create({ baseURL: import.meta.env.VITE_API_BASE || 'https://job-application-tracker-theta-lime.vercel.app/' });
+const API = axios.create({ baseURL: import.meta.env.VITE_API_BASE || 'http://localhost:5000/api' });
 
 
 export default API;
